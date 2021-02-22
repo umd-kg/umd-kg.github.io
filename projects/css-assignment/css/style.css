@@ -1,0 +1,23 @@
+h1,
+body,
+h2{
+	font-family: 'Playfair Display', serif;
+}
+
+
+.byline,
+.credit,
+.dateline{
+	font-family: 'Lato', sans-serif;
+}
+
+
+.byline{
+	font-weight:700;
+}
+
+.byline,
+.credit{
+		text-transform:uppercase;
+
+}
