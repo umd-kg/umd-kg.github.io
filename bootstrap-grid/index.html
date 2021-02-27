@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<!-- meta tags and seo -->
+<title>bootstrap grid</title>
+<!-- mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- google fonts -->
+<!-- bootstrap css -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!-- custom css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div class="demo">
+	<h2>bootstrap grid demo</h2>
+<h3>Containers</h3>
+<div class="container display">container<br> max-width changes at each breakpoint.</div>
+<div class="container-sm display">container-sm<br>100% wide until ≥576px small breakpoint</div>
+<div class="container-md display">container-md<br>100% wide until ≥768px medium breakpoint</div>
+<div class="container-lg display">container-lg<br>100% wide until ≥992px large breakpoint</div>
+<div class="container-xl display">container-xl<br>100% wide until ≥1200px extra large breakpoint</div>
+<div class="container-xxl display">container-xxl<br>100% wide until ≥1400px extra extra large breakpoint</div>
+<div class="container-fluid display">container-fluid<br>full width container, spanning the entire width of the viewport. fluidly changes.</div>
+
+<hr>
+<div class="container">
+<h3>non-vertical stack columns using col</h3>
+<div class="row">
+<div class="col one">col</div>
+<div class="col two">col</div>
+<div class="col one">col</div>
+<div class="col two">col</div>
+</div>
+<h3>non-vertical stack columns using numerical split</h3>
+<div class="row">
+<div class="col-8 one">col-8</div>
+<div class="col-4 two">col-sm-4</div>
+</div>
+<hr>
+<h3>responsive stacked columns using col-sm, md, lg, xl</h3>
+<div class="row">
+<div class="col-sm one">col-sm</div>
+<div class="col-sm two">col-sm</div>
+<div class="col-sm one">col-sm</div>
+</div>
+<div class="row">
+<div class="col-md one">col-md</div>
+<div class="col-md two">col-md</div>
+<div class="col-md one">col-md</div>
+</div>
+<div class="row">
+<div class="col-lg one">col-lg</div>
+<div class="col-lg two">col-lg</div>
+<div class="col-lg one">col-lg</div>
+</div>
+<div class="row">
+<div class="col-xl one">col-xl</div>
+<div class="col-xl two">col-xl</div>
+<div class="col-xl one">col-xl</div>
+</div>
+<h3>responsive stacked columns using col-sm, md, lg, xl numerical split</h3>
+<div class="row">
+<div class="col-sm-8 one">col-sm-8</div>
+<div class="col-sm-4 two">col-sm-4</div>
+</div>
+<div class="row">
+<div class="col-md-4 one">col-md-4</div>
+<div class="col-md-8 two">col-md-8</div>
+</div>
+<hr>
+<h3>offset columns</h3>
+<div class="row">
+<div class="col-md-4 one">.col-md-4</div>
+<div class="col-md-4 offset-md-4 two">.col-md-4 .offset-md-4</div>
+</div>
+<div class="row">
+<div class="col-md-3 offset-md-3 one">.col-md-3 .offset-md-3</div>
+<div class="col-md-3 offset-md-3 two">.col-md-3 .offset-md-3</div>
+</div>
+<div class="row">
+<div class="col-md-6 offset-md-3 one">.col-md-6 .offset-md-3</div>
+</div>
+<hr>
+<h3>mobile flex different size</h3>
+<div class="row">
+<div class="col-12 col-md-8 one">.col-12 .col-md-8</div>
+<div class="col-6 col-md-4 two">.col-6 .col-md-4</div>
+</div>
+<div class="row">
+<div class="col-6 col-md-4 one">.col-6 .col-md-4</div>
+<div class="col-6 col-md-4 two">.col-6 .col-md-4</div>
+<div class="col-6 col-md-4 one">.col-6 .col-md-4</div>
+</div>
+<div class="row">
+<div class="col-sm-6 col-lg-8 one">.col-sm-6 .col-lg-8</div>
+<div class="col-6 col-lg-4 two">.col-6 .col-lg-4</div>
+</div>
+<div class="row">
+<div class="col-6 col-sm-4 one">.col-6 .col-sm-4</div>
+<div class="col-6 col-sm-4 two">.col-6 .col-sm-4</div>
+<div class="col-6 col-sm-4 one">.col-6 .col-sm-4</div>
+</div>
+<hr>
+<h3>justify aligned columns</h3>
+<h4>start</h4>
+<div class="row justify-content-start">
+<div class="col-4 one">One of two columns</div>
+<div class="col-4 two">One of two columns</div>
+</div>
+<h4>end</h4>
+<div class="row justify-content-end">
+<div class="col-4 one">One of two columns</div>
+<div class="col-4 two">One of two columns</div>
+</div>
+<h4>around</h4>
+<div class="row justify-content-around">
+<div class="col-4 one">One of two columns</div>
+<div class="col-4 two">One of two columns</div>
+</div>
+<h4>between</h4>
+<div class="row justify-content-between">
+<div class="col-4 one">One of two columns</div>
+<div class="col-4 two">One of two columns</div>
+</div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+
+</html>

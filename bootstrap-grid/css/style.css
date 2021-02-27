@@ -1,0 +1,36 @@
+body {
+text-align: center;
+text-transform: uppercase;
+display:inline;
+}
+
+div {
+margin-bottom: 25px;
+padding:10px;
+}
+
+hr{
+border:2px solid red;
+}
+
+.container{
+padding-top:20px;
+}
+
+.two{
+background:gray;
+}
+
+.one{
+background:lightgray;
+}
+
+.display{
+background:lightblue;
+display:block;
+
+}
+
+.demo{
+margin-top:25px;
+}
