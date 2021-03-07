@@ -1,0 +1,33 @@
+
+
+
+index.html
+
+[resume]
+	index.html
+[contact]
+	index.html
+[site]
+	[css]
+		style.css
+
+
+
+
+index.html nav >>
+
+	<a class="nav-link active" aria-current="page" href="#">Home</a>
+	<a class="nav-link" href="resume/">Resume</a>
+	<a class="nav-link" href="contact/">Contact</a>
+
+resume nav >>
+
+	<a class="nav-link" href="../">Home</a>
+	<a class="nav-link active" aria-current="page" href="#">Resume</a>
+	<a class="nav-link" href="../contact/">Contact</a>
+
+
+contact nav >>
+	<a class="nav-link" href="../">Home</a>
+	<a class="nav-link" href="../resume/">Resume</a>
+	<a class="nav-link active" aria-current="page" href="#">Contact</a>
