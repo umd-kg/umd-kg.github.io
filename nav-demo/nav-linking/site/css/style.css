@@ -1,0 +1,46 @@
+/*
+
+font-family: 'Rock Salt', cursive;
+
+font-family: 'Noto Sans JP', sans-serif;
+
+*/
+
+
+
+/*		 PAGE CONTENT 	*/
+
+.content{
+margin-top:10%;
+}
+
+h3{
+font-family: 'Rock Salt', cursive;
+color: #a1adc2;
+
+}
+
+p{
+font-family: 'Noto Sans JP', sans-serif;
+font-size:14px;
+}
+
+
+/*		NAVBAR 		*/
+
+
+.navbar-custom{
+background-color: #a1adc2;
+}
+
+.navbar-brand{
+font-family: 'Rock Salt', cursive;
+}
+
+nav li{
+font-family: 'Noto Sans JP', sans-serif;
+font-size:12px;
+text-transform: lowercase;
+font-weight:bolder;
+letter-spacing:1.1px;
+}
