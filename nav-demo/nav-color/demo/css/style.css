@@ -29,3 +29,16 @@ h3{
 }
 
 
+.brand-name{
+font-family: 'Rock Salt', cursive;
+
+}
+
+.link-style {
+	font-family: 'Noto Sans JP', sans-serif;
+	text-transform: lowercase;
+}
+
+.custom-nav{
+	background-color: #c49923;
+}
