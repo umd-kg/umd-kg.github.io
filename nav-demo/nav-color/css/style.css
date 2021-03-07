@@ -11,9 +11,11 @@ font-family: 'Noto Sans JP', sans-serif;
 
 /*	PAGE STYLES 	*/
 
-
+body{
+	margin-bottom: 25%;
+}
 h3 {
-    padding: 20px 0 0 40px;
+    padding: 20px 0 0 20px;
     margin-top: 40px;
     border-top: 1px solid lightblue;
 }
@@ -25,4 +27,26 @@ h3 {
 
 .nav-custom {
     background-color: #98a4b8
+}
+
+xmp{
+	    padding: 0 0 0 40px;
+
+}
+
+p{
+padding-left:20px;
+}
+
+.custom-navbar-demo 
+.navbar-brand{
+	font-family: 'Rock Salt', cursive;
+}
+
+.custom-navbar-demo 
+ .nav-link{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:13px;
+	font-weight:500;
+	text-transform:lowercase;
 }

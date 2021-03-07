@@ -105,6 +105,8 @@
 
 
 <h3>navbar-light nav-custom</h3>
+
+
 <nav class="navbar navbar-expand-lg navbar-light nav-custom">
 <div class="container-fluid">
 <a class="navbar-brand" href="#">Navbar</a>
@@ -122,9 +124,19 @@
 </nav>
 
 
+<p>HTML:</p>
+<xmp><nav class="navbar navbar-expand-lg navbar-light nav-custom"></xmp>
+<p>CSS:</p>
+<xmp>.nav-custom {
+background-color: #98a4b8
+} </xmp>
+
 
 
 <h3>navbar-dark nav-custom</h3>
+
+
+
 <nav class="navbar navbar-expand-lg navbar-dark nav-custom">
 <div class="container-fluid">
 <a class="navbar-brand" href="#">Navbar</a>
@@ -140,6 +152,58 @@
 </div>
 </div>
 </nav>
+
+<p>HTML:</p>
+<xmp><nav class="navbar navbar-expand-lg navbar-dark nav-custom"></xmp>
+<p>CSS:</p>
+<xmp>.nav-custom {
+background-color: #98a4b8
+} </xmp>
+
+<h3>custom font, background color</h3>
+
+<div class="custom-navbar-demo">
+<nav class="navbar navbar-expand-lg navbar-dark nav-custom">
+<div class="container-fluid">
+<a class="navbar-brand" href="#">Navbar</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+<div class="navbar-nav">
+<a class="nav-link active" aria-current="page" href="#">Active link</a>
+<a class="nav-link" href="#">Link </a>
+<a class="nav-link" href="#">Link </a>
+</div>
+</div>
+</div>
+</nav>
+</div>
+
+<p>HTML:</p>
+
+<xmp><nav class="navbar navbar-expand-lg navbar-dark nav-custom"></xmp>
+<p>CSS:</p>
+
+<p>brand text</p>
+<xmp>.navbar-brand{
+font-family: 'Rock Salt', cursive;
+}
+</xmp>
+<p>link text</p>
+<xmp>.nav-link{
+font-family: 'Noto Sans JP', sans-serif;
+font-size:13px;
+font-weight:500;
+text-transform:lowercase;
+}
+</xmp>
+<p>background color</p>
+<xmp>
+.nav-custom {
+background-color: #98a4b8
+}
+</xmp>
 
 
 
