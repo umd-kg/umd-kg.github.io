@@ -1,0 +1,11 @@
+
+Data & methods
+Player names were collected from <a href="#">Baseball Reference</a>, <a href="#">Basketball
+Reference</a>, <a href="#">Football Reference</a>, <a href="#">Hockey Reference</a>, <a
+href="#">MLS</a>, and <a href="#">NWSL</a>.
+Names that included “-” were tagged and manually vetted. Korean names, where the last name appears
+before the first name, were not tagged as hyphenated names. Players were grouped into decades by the
+season in which they played in their first professional game.
+When seasons spanned multiple years (i.e. 1979-1980), the last year was used as the decade. The
+reasons for hyphenation were manually researched and added.
+This article was recreated for class purposes only. All copyright is held by <a href="https://pudding.cool/2019/05/hyphens/">pudding.cool.</a>

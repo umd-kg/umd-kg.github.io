@@ -1,0 +1,173 @@
+/*
+Orange    #fc5f1a
+Navy    #010833
+Yellow    #ffa500
+*/
+
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
+/* 		full page 	*/
+body {
+background: #fc5f1a;
+font-family: 'Nunito Sans', sans-serif;
+font-size: 18px;
+
+}
+
+a {
+font-weight: 600;
+color: black;
+text-decoration: underline;
+text-decoration-color: #ffa500;
+}
+
+a:hover {
+color: #ffa500;
+}
+
+
+/* 		header 	*/
+
+.navbar {
+margin-bottom: 5%;
+}
+
+h1,
+h2,
+h3,
+.bio {
+text-align: center;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+font-family: 'Anton', sans-serif;
+text-transform: uppercase;
+}
+
+h1 {
+font-size: 60px;
+color: #010833;
+}
+
+h3 {
+font-size: 70px;
+
+}
+
+.big {
+font-size: 120px;
+}
+
+.bio {
+font-style: italic;
+font-weight: 500;
+line-height: 1;
+/*margin-top:3%;
+margin-bottom:5%;*/
+margin: 3% 0 5% 0;
+}
+
+/* 		breakout box 	*/
+
+.box {
+background-color: white;
+margin-bottom:5%;
+}
+
+.graphic {
+display: block;
+margin: 0 auto 0 auto;
+}
+
+.list {
+padding: 5% 0 5% 0;
+margin: 2% 0 2% 0;
+}
+
+.break{
+border-top:2px solid white;
+width:25%;
+margin:0 auto;
+}
+
+/* 	title box */
+.title {
+color: #ffa500;
+background: #010833;
+letter-spacing: 2.5px;
+padding: 2% 0 2% 0;
+margin: 2% 0 2% 0;
+
+}
+
+
+.yellow {
+font-weight: 500;
+letter-spacing: 1.5px;
+color:#ffa500;
+margin:0;
+padding:0;
+}
+
+h4 {
+font-size: 30px;
+margin: 0;
+padding: 0;
+}
+
+
+.desc {
+font-weight: 200;
+font-size: 16px;
+color: #010833;
+text-transform:lowercase;
+
+}
+
+/* 	credits 	 */
+
+.hed{
+font-weight:600;
+}
+
+.credit{
+font-size:14px;
+padding-top:1%;
+margin-bottom:5%;
+}
+
+
+
+
+/* mobile only */
+
+@media (max-width:768px){
+.list, h4,.yellow,h3,.desc,.players p{
+padding: 0% 2% 0% 2%;
+}
+
+
+
+}
+
+
+@media (max-width:576px){
+h1{
+font-size:37px;
+}	
+.big{
+font-size:85px;
+}
+body{
+font-size:15px;
+line-height:1.75;
+}
+}
+
